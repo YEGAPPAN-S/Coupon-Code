@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/coupon-code",
+  "description": "Coupon Code Plugin",
+  "version": "1.0.0",
+  "type": "wordpress-plugin",
+  "minimum-stability": "stable",
+  "license": "GPL v3 or later",
+  "authors": [
+    {
+      "name": "yegappan",
+      "email": "yegappans2910@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Coupon\\": "",
+      "Coupon\\App\\": "app/"
+    }
+  },
+  "require": {
+    "vlucas/valitron": "^1.4"
+  }
+}
