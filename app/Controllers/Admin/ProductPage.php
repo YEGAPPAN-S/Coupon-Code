@@ -37,9 +37,7 @@ class ProductPage
      * @return void
      */
     public function menuData() {
-        global $post;
         $data = [
-            'post' => $post
         ];
 
         Functions::view('Admin/AdminFrontend', $data, true);
