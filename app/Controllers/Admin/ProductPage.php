@@ -43,4 +43,8 @@ class ProductPage
         Functions::view('Admin/AdminFrontend', $data, true);
     }
 
+    public function checkPost( $post_id ) {
+    
+        echo "<pre>"; print_r($_POST); echo "</pre>"; exit;
+    }
 }

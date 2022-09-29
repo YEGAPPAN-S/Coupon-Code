@@ -27,5 +27,8 @@ class Route
         //Product data panel
         add_action('woocommerce_product_data_panels', [$admin_page, 'menuData']);
 
+        //Save meta post function
+        add_action('woocommerce_process_product_meta', [ $admin_page, 'checkPost' ]);
+
     }
 }
